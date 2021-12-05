@@ -18,11 +18,26 @@ body {
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 /* LAYOUT */
+header {
+  margin-bottom: 2rem;
+}
+
+.instruction {
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.75s;
+}
+
 main {
   position: relative;
   width: 100rem;
